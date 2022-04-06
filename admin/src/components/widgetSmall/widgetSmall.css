@@ -1,0 +1,60 @@
+.widgetSmall {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 11px 2px rgba(53, 165, 103, 0.7);
+  box-shadow: 0px 0px 11px 2px rgba(171, 173, 172, 0.7);
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.widgetSmallTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.widgetSmallList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widgetSmallImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widgetSmallListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.widgetSmallUser {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetSmallUsername {
+  font-weight: 600;
+}
+
+.widgetSmallUserTitle {
+  font-weight: 300;
+}
+
+.widgetSmallButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: grey;
+  cursor: pointer;
+  background-color: #eeeef7;
+}
+
+.widgetSmallIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
